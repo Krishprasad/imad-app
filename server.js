@@ -7,8 +7,8 @@ app.use(morgan('combined'));
 
 var articles = {
 articleone: {
-    title:`articleone | krish`,
-    heading:'articleone',
+    title: 'articleone | krish',
+    heading: 'articleone',
     content: `<p>
                 This is the content of ArticleOne.This is the content of ArticleOne.This is the content of ArticleOne.
             </p>
