@@ -69,7 +69,7 @@ app.get('/', function (req, res) {
 var counter=0;
 app.get('/counter', function(req,res){
    var counter=counter+1;
-   res.sendFile(counter.toString());
+   res.send(counter.toString());
 });
 
 app.get('/:articleName', function (req, res){
